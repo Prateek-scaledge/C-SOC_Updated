@@ -1,0 +1,4 @@
+Command Line: /global/apps/verdi_2020.03/verdi/Q-2020.03/platform/LINUXAMD64/bin/Novas -ssf test_top.fsdb
+uname(Linux vgpvip3.perfectvips.com 2.6.32-504.el6.x86_64 #1 SMP Tue Sep 16 01:56:35 EDT 2014 x86_64)
+Signal SIGHUP is received. Shutting down...se verdi -licdebug for more information.
+au time 33.998073 1.130828 0.246962 delta 133517312 133517312 total 572870656 572870656

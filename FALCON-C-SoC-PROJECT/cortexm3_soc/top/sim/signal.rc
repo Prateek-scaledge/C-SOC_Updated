@@ -1,0 +1,236 @@
+Magic 271485
+Revision Verdi_Q-2020.03
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 -1 1916 1019 247 133
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/remote/pviphome01/pritp/c_soc_prj4/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 13678.422115 14309.979823
+cursor 13710.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 147
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+addGroup "GLOBAL_SIGNAL"
+activeDirFile "" "/remote/pviphome01/pritp/c_soc_prj4/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb"
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/HCLK
+addSignal -h 15 -holdScope HRESETn
+addGroup "ICODE(S0)" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/HADDRI[31:0]
+addSignal -h 15 -holdScope HTRANSI[1:0]
+addSignal -h 15 -holdScope HBURSTI[2:0]
+addSignal -h 15 -holdScope HSIZEI[2:0]
+addSignal -h 15 -holdScope HRDATAI[31:0]
+addSignal -h 15 -holdScope HRESPI[1:0]
+addSignal -h 15 -holdScope HREADYI
+addSignal -h 15 -holdScope HPROTI[3:0]
+addGroup "DCODE(S1)" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /cortexm3_soc_tb/cortexm3_soc_i0/HADDRD[31:0]
+addSignal -h 15 -holdScope HTRANSD[1:0]
+addSignal -h 15 -holdScope HBURSTD[2:0]
+addSignal -h 15 -holdScope HWRITED
+addSignal -h 15 -holdScope HSIZED[2:0]
+addSignal -h 15 -holdScope HRDATAD[31:0]
+addSignal -h 15 -holdScope HWDATAD[31:0]
+addSignal -h 15 -holdScope HRESPD[1:0]
+addSignal -h 15 -holdScope HREADYD
+addSignal -h 15 -holdScope HPROTD[3:0]
+addGroup "SYSTEM(S3)"
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/HADDRS[31:0]
+addSignal -h 15 -holdScope HTRANSS[1:0]
+addSignal -h 15 -holdScope HBURSTS[2:0]
+addSignal -h 15 -holdScope HWRITES
+addSignal -h 15 -holdScope HSIZES[2:0]
+addSignal -h 15 -holdScope HRDATAS[31:0]
+addSignal -h 15 -holdScope HWDATAS[31:0]
+addSignal -h 15 -holdScope HRESPS[1:0]
+addSignal -h 15 -holdScope HREADYS
+addSignal -h 15 -holdScope HPROTS[3:0]
+addGroup "BUS_MAX_SRAM_A(M0)" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite/HSELM0
+addSignal -h 15 -holdScope HADDRM0[31:0]
+addSignal -h 15 -holdScope HTRANSM0[1:0]
+addSignal -h 15 -holdScope HBURSTM0[2:0]
+addSignal -h 15 -holdScope HWRITEM0
+addSignal -h 15 -holdScope HSIZEM0[2:0]
+addSignal -h 15 -holdScope HRDATAM0[31:0]
+addSignal -h 15 -holdScope HWDATAM0[31:0]
+addSignal -h 15 -holdScope HRESPM0
+addSignal -h 15 -holdScope HPROTM0[3:0]
+addSignal -h 15 -holdScope HREADYOUTM0
+addGroup "AHB_TO_SRAM_A_BRIDGE" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HADDR[11:0]
+addSignal -h 15 -holdScope HTRANS[1:0]
+addSignal -h 15 -holdScope HWRITE
+addSignal -h 15 -holdScope HSIZE[2:0]
+addSignal -h 15 -holdScope HWDATA[31:0]
+addSignal -h 15 -holdScope HRDATA[31:0]
+addSignal -h 15 -holdScope HRESP
+addSignal -h 15 -holdScope HREADY
+addSignal -h 15 -holdScope HREADYOUT
+addSignal -h 15 -holdScope SRAMCS
+addSignal -h 15 -holdScope SRAMADDR[9:0]
+addSignal -h 15 -holdScope SRAMWEN[3:0]
+addSignal -h 15 -holdScope SRAMWDATA[31:0]
+addSignal -h 15 -holdScope SRAMRDATA[31:0]
+addGroup "SRAM A MEMORY" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_fpga_sram_A/CS
+addSignal -h 15 -holdScope ADDR[11:0]
+addSignal -h 15 -holdScope WREN[3:0]
+addSignal -h 15 -holdScope WDATA[31:0]
+addSignal -h 15 -holdScope RDATA[31:0]
+addSignal -h 15 -holdScope cs_reg
+addSignal -h 15 -holdScope addr_q1[11:0]
+addSignal -h 15 -holdScope write_enable[3:0]
+addSignal -h 15 -holdScope read_data[31:0]
+addSignal -h 15 -holdScope BRAM0[4095:0]
+addSignal -h 15 -holdScope BRAM1[4095:0]
+addSignal -h 15 -holdScope BRAM2[4095:0]
+addSignal -h 15 -holdScope BRAM3[4095:0]
+addGroup "BUS_MAX_SRAM_S(M3)"
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite/HADDRM3[31:0]
+addSignal -h 15 -holdScope HTRANSM3[1:0]
+addSignal -h 15 -holdScope HBURSTM3[2:0]
+addSignal -h 15 -holdScope HPROTM3[3:0]
+addSignal -h 15 -holdScope HRDATAM3[31:0]
+addSignal -h 15 -holdScope HREADYOUTM3
+addSignal -h 15 -holdScope HRESPM3
+addSignal -h 15 -holdScope HSELM3
+addSignal -h 15 -holdScope HSIZEM3[2:0]
+addSignal -h 15 -holdScope HWDATAM3[31:0]
+addSignal -h 15 -holdScope HWRITEM3
+addGroup "BUS_MAX_APB_UART_(M2)" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite/HADDRM2[31:0]
+addSignal -h 15 -holdScope HTRANSM2[1:0]
+addSignal -h 15 -holdScope HSIZEM2[2:0]
+addSignal -h 15 -holdScope HBURSTM2[2:0]
+addSignal -h 15 -holdScope HPROTM2[3:0]
+addSignal -h 15 -holdScope HRDATAM2[31:0]
+addSignal -h 15 -holdScope HRESPM2
+addSignal -h 15 -holdScope HSELM2
+addSignal -h 15 -holdScope HWDATAM2[31:0]
+addSignal -h 15 -holdScope HWRITEM2
+addGroup "AHB TO APB BRIDGE" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/bridge_ip/SLAVE/HADDR[31:0]
+addSignal -h 15 -holdScope HTRANS[1:0]
+addSignal -h 15 -holdScope HWRITE
+addSignal -h 15 -holdScope HWDATA[31:0]
+addSignal -h 15 -holdScope HRDATA[31:0]
+addSignal -h 15 -holdScope HREADYin
+addSignal -h 15 -holdScope HRESP[1:0]
+addSignal -h 15 -holdScope PRDATA[31:0]
+addSignal -h 15 -holdScope HSIZE[2:0]
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/Pselx_b[2:0]
+addSignal -h 15 -holdScope Penable_b
+addSignal -h 15 -holdScope Paddr_b[31:0]
+addSignal -h 15 -holdScope Pwrite_b
+addSignal -h 15 -holdScope Pwdata_b[31:0]
+addSignal -h 15 -holdScope Prdata_b[31:0]
+addSignal -h 15 -holdScope Hresp_b[1:0]
+addGroup "APB MEMORY" -e FALSE
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/PSEL_M
+addSignal -h 15 -holdScope PENABLE_M
+addSignal -h 15 -holdScope PREADY_M
+addSignal -h 15 -holdScope PADDR_M[31:0]
+addSignal -h 15 -holdScope PWRITE_M
+addSignal -h 15 -holdScope PWDATA_M[31:0]
+addSignal -h 15 -holdScope PRDATA_M[31:0]
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/mem_ip/mem[127:0]
+addGroup "AHB_TO_SRAM_S_BRIDGE"
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_S/HADDR[11:0]
+addSignal -h 15 -holdScope HCLK
+addSignal -h 15 -holdScope HRDATA[31:0]
+addSignal -h 15 -holdScope HREADY
+addSignal -h 15 -holdScope HREADYOUT
+addSignal -h 15 -holdScope HRESETn
+addSignal -h 15 -holdScope HRESP
+addSignal -h 15 -holdScope HSEL
+addSignal -h 15 -holdScope HSIZE[2:0]
+addSignal -h 15 -holdScope HTRANS[1:0]
+addSignal -h 15 -holdScope HWDATA[31:0]
+addSignal -h 15 -holdScope HWRITE
+addSignal -h 15 -holdScope SRAMADDR[9:0]
+addSignal -h 15 -holdScope SRAMCS
+addSignal -h 15 -holdScope SRAMRDATA[31:0]
+addSignal -h 15 -holdScope SRAMWDATA[31:0]
+addSignal -h 15 -holdScope SRAMWEN[3:0]
+addGroup "SRAM S MEMORY"
+addSignal -h 15 /cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_fpga_sram_S/ADDR[11:0]
+addSignal -h 15 -holdScope CS
+addSignal -h 15 -holdScope RDATA[31:0]
+addSignal -h 15 -holdScope WDATA[31:0]
+addSignal -h 15 -holdScope WREN[3:0]
+addGroup "G14"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/remote/pviphome01/pritp/c_soc_prj4/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/_$novas_unit__1"
+"/cortexm3_soc_tb"
+"/cortexm3_soc_tb/cortexm3_soc_i0"
+"/cortexm3_soc_tb/cortexm3_soc_i0/bridge_ip"
+"/cortexm3_soc_tb/cortexm3_soc_i0/bridge_ip/SLAVE"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_S"
+"/cortexm3_soc_tb/cortexm3_soc_i0/i2c_ip"
+
+SCOPE_LIST_BEGIN
+"/_$novas_unit__1"
+"/cortexm3_soc_tb/cortexm3_soc_i0"
+"/cortexm3_soc_tb"
+"/cortexm3_soc_tb/cortexm3_soc_i0/bridge_ip"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite"
+"/cortexm3_soc_tb/cortexm3_soc_i0/CORTEXM3INTEGRATIONDS_i0/u_cortexm3ds_logic"
+"/cortexm3_soc_tb/cortexm3_soc_i0/CORTEXM3INTEGRATIONDS_i0"
+"/cortexm3_soc_tb/cortexm3_soc_i0/mem_ip"
+"/cortexm3_soc_tb/cortexm3_soc_i0/i2c_ip/DUT_APB"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A"
+"/cortexm3_soc_tb/cortexm3_soc_i0/i2c_ip"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_fpga_sram_A"
+"/cortexm3_soc_tb/cortexm3_soc_i0/bridge_ip/SLAVE"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_S"
+"/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_fpga_sram_S"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

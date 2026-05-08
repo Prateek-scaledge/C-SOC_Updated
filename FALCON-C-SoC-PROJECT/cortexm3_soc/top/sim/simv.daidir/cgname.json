@@ -1,0 +1,212 @@
+{
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "_vcs_unit__3254285488": [
+        "_vcs_unit__3254285488",
+        "E9t25",
+        "module",
+        3
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        6
+    ],
+    "uvm_custom_install_recording": [
+        "uvm_custom_install_recording",
+        "nhiwz",
+        "module",
+        7
+    ],
+    "uvm_custom_install_verdi_recording": [
+        "uvm_custom_install_verdi_recording",
+        "EbjT3",
+        "module",
+        8
+    ],
+    "uvc_pkg": [
+        "uvc_pkg",
+        "ZGvvV",
+        "module",
+        9
+    ],
+    "sram_inf": [
+        "sram_inf",
+        "cQvsK",
+        "module",
+        10
+    ],
+    "ahb_mas_inf": [
+        "ahb_mas_inf",
+        "NELLS",
+        "module",
+        11
+    ],
+    "ahb_slv_inf": [
+        "ahb_slv_inf",
+        "FCWt2",
+        "module",
+        12
+    ],
+    "ahb_inf": [
+        "ahb_inf",
+        "YjmrF",
+        "module",
+        13
+    ],
+    "ahb_pkg": [
+        "ahb_pkg",
+        "A4Qq4",
+        "module",
+        14
+    ],
+    "cm3_outM0": [
+        "cm3_outM0",
+        "fRvGA",
+        "module",
+        15
+    ],
+    "cm3_outM1": [
+        "cm3_outM1",
+        "uFv77",
+        "module",
+        16
+    ],
+    "cm3_outM2": [
+        "cm3_outM2",
+        "bzNud",
+        "module",
+        17
+    ],
+    "cm3_outM3": [
+        "cm3_outM3",
+        "IY7bc",
+        "module",
+        18
+    ],
+    "cm3_matrix_default_slave": [
+        "cm3_matrix_default_slave",
+        "d1wgF",
+        "module",
+        19
+    ],
+    "cm3_matrix_lite": [
+        "cm3_matrix_lite",
+        "eefec",
+        "module",
+        20
+    ],
+    "cm3_in": [
+        "cm3_in",
+        "CvZTa",
+        "module",
+        21
+    ],
+    "cmsdk_ahb_to_sram": [
+        "cmsdk_ahb_to_sram",
+        "E5tsd",
+        "module",
+        22
+    ],
+    "cmsdk_fpga_sram": [
+        "cmsdk_fpga_sram",
+        "DVeC1",
+        "module",
+        23
+    ],
+    "CORTEXM3INTEGRATIONDS": [
+        "CORTEXM3INTEGRATIONDS",
+        "RZ4SQ",
+        "module",
+        24
+    ],
+    "cortexm3_soc": [
+        "cortexm3_soc",
+        "Sw89Z",
+        "module",
+        25
+    ],
+    "ahb_dut": [
+        "ahb_dut",
+        "TNkn2",
+        "module",
+        26
+    ],
+    "ahb_to_apb": [
+        "ahb_to_apb",
+        "DWPCj",
+        "module",
+        27
+    ],
+    "apb_memory": [
+        "apb_memory",
+        "xZCpF",
+        "module",
+        28
+    ],
+    "fifo": [
+        "fifo",
+        "BWIbP",
+        "module",
+        29
+    ],
+    "i2c": [
+        "i2c",
+        "FPmmx",
+        "module",
+        30
+    ],
+    "io_generic_fifo": [
+        "io_generic_fifo",
+        "CKKIK",
+        "module",
+        31
+    ],
+    "io_generic_fifo_0000": [
+        "io_generic_fifo_0000",
+        "vSw0w",
+        "module",
+        32
+    ],
+    "uart_interface": [
+        "uart_interface",
+        "W0x2q",
+        "module",
+        33
+    ],
+    "cortexm3_soc_tb": [
+        "cortexm3_soc_tb",
+        "nMWsC",
+        "module",
+        34
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        35
+    ]
+}

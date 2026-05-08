@@ -1,0 +1,875 @@
+global coverage_group 0 ahb_pkg::cvg_32_bit_aligned_addr __coverage_cvg_32_bit_aligned_addr unused_cvg_32_bit_aligned_addr_loop_label ahb_pkg 1 1 0 0 0  ( 0 
+)
+ 1 1
+ 118 /remote/vgvips1/globaluser/akashs/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/../../../AHB/env/ahb_coverage_collector.sv
+ 12 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 19 bit_32_aligned_addr 14 0 0 0 0 0 59 cvg_32_bit_aligned_addr::ahb_pkg_cvg_32_bit_aligned_addr_fn 59 cvg_32_bit_aligned_addr::ahb_pkg_cvg_32_bit_aligned_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 1 1 1 30 wildcard_bins_for_byte_aligned 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_32_bit_aligned_addr::ahb_pkg_cvg_32_bit_aligned_addr_fn_0 0 0 0 0 0 0 0
+ 1 1 0 1 1 1 34 wildcard_bins_for_halfword_aligned 16 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_32_bit_aligned_addr::ahb_pkg_cvg_32_bit_aligned_addr_fn_1 0 0 0 0 0 0 0
+ 1 1 0 1 1 1 30 wildcard_bins_for_word_aligned 17 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_32_bit_aligned_addr::ahb_pkg_cvg_32_bit_aligned_addr_fn_2 0 0 0 0 0 0 0
+ 1 1 0 1 1 1 36 wildcard_bins_for_doubleword_aligned 18 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_32_bit_aligned_addr::ahb_pkg_cvg_32_bit_aligned_addr_fn_3 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 ahb_pkg::cvg_64_bit_aligned_addr __coverage_cvg_64_bit_aligned_addr unused_cvg_64_bit_aligned_addr_loop_label ahb_pkg 1 1 0 0 0  ( 0 
+)
+ 0 21 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 19 bit_64_aligned_addr 22 0 0 0 0 0 59 cvg_64_bit_aligned_addr::ahb_pkg_cvg_64_bit_aligned_addr_fn 59 cvg_64_bit_aligned_addr::ahb_pkg_cvg_64_bit_aligned_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 1 1 1 30 wildcard_bins_for_byte_aligned 23 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_64_bit_aligned_addr::ahb_pkg_cvg_64_bit_aligned_addr_fn_0 0 0 0 0 0 0 0
+ 1 1 0 1 1 1 34 wildcard_bins_for_halfword_aligned 24 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_64_bit_aligned_addr::ahb_pkg_cvg_64_bit_aligned_addr_fn_1 0 0 0 0 0 0 0
+ 1 1 0 1 1 1 30 wildcard_bins_for_word_aligned 25 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_64_bit_aligned_addr::ahb_pkg_cvg_64_bit_aligned_addr_fn_2 0 0 0 0 0 0 0
+ 1 1 0 1 1 1 36 wildcard_bins_for_doubleword_aligned 26 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 cvg_64_bit_aligned_addr::ahb_pkg_cvg_64_bit_aligned_addr_fn_3 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 ahb_pkg::cvg_mas_data __coverage_cvg_mas_data unused_cvg_mas_data_loop_label ahb_pkg 1 0 0 0 0  ( 0 
+)
+ 0 30 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 39 cvg_mas_data::ahb_pkg_cvg_mas_data_fn_2
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 12 mas_wdata_in 34 0 0 0 0 0 37 cvg_mas_data::ahb_pkg_cvg_mas_data_fn 37 cvg_mas_data::ahb_pkg_cvg_mas_data_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 4 0 0 1 1 22 data_transition_0_to_1 35 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_mas_data::ahb_pkg_cvg_mas_data_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_mas_data::ahb_pkg_cvg_mas_data_fn_1 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 22 data_transition_1_to_0 36 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_mas_data::ahb_pkg_cvg_mas_data_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_mas_data::ahb_pkg_cvg_mas_data_fn_0 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 ahb_pkg::cvg_mas_all_signals __coverage_cvg_mas_all_signals unused_cvg_mas_all_signals_loop_label ahb_pkg 1 0 0 0 0  ( 0 
+)
+ 0 40 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+14
+0
+8
+0
+ 15 mas_haddr_range 41 0 0 0 0 0 51 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn 51 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 14 addr_low_range 42 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_0 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1 0 0 0 0 0
+ 1 1 0 0 1 1 14 addr_mid_range 43 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_2 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_3 0 0 0 0 0
+ 1 1 0 0 1 1 15 addr_high_range 44 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_4 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_5 0 0 0 0 0
+
+ 21 mas_hwrite_transition 48 0 0 0 0 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_6 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 4 0 0 1 1 13 hwrite_0_to_1 49 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_7 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_8 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 13 hwrite_1_to_0 50 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_8 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_7 0 0 0 0 0 0 0
+
+ 12 hwrite_range 53 0 0 0 0 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_6 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 hwrite_0 55 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_7 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 8 hwrite_1 56 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_8 0 0 0 0 0 0 0
+
+ 16 mas_hburst_state 59 0 0 0 0 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_9 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_9 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 20 ahb_pkg::hburst_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 8 1 1 0 0 1 1 22 single_burst_operation 60 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_a 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 20 incr_burst_operation 61 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_b 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 incr4_burst_operation 62 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_c 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 incr8_burst_operation 63 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_d 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 22 incr16_burst_operation 64 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_e 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 wrap4_burst_operation 65 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_f 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 wrap8_burst_operation 66 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_10 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 22 wrap16_burst_operation 67 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_11 0 0 0 0 0 0 0
+
+ 28 cross_hburst_wr_rd_operation 70 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_12 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_12 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 4 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 8 1 4 0 1 1 1 28 single_wr_rd_any_burst_rd_wr 72 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 26 incr_wr_rd_any_burst_rd_wr 73 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 27 wrap4_wr_rd_any_burst_rd_wr 74 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1a 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 27 incr4_wr_rd_any_burst_rd_wr 75 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 27 wrap8_wr_rd_any_burst_rd_wr 76 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 27 incr8_wr_rd_any_burst_rd_wr 77 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 28 wrap16_wr_rd_any_burst_rd_wr 78 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 4 0 1 1 1 28 incr16_wr_rd_any_burst_rd_wr 79 0 0 4 0 -1 0 0 0 0 0 0 1 2 1 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 7 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_13 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_14 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_15 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_16 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_17 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_18 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_19 0 0 0 0 0 0 0
+
+ 9 mas_hsize 82 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1b 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1b 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 19 ahb_pkg::hsize_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 5 hsize 84 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1c 0 0 0 0 0
+
+ 12 htrans_state 87 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 2 1 20 ahb_pkg::htrans_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 10 idle_trans 88 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 12 nonseq_trans 89 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 10 busy_trans 90 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 9 seq_trans 91 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+
+ 19 htrans_nonseq_state 94 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 2 1 20 ahb_pkg::htrans_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 12 nonseq_trans 95 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+
+ 29 waited_all_burst_trans_change 99 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 2 1 20 ahb_pkg::htrans_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 4 0 0 1 1 11 idle_nonseq 100 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+
+ 28 fixed_hburst_waited_scenario 108 0 0 0 0 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_9 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_9 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 20 ahb_pkg::hburst_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 19 waited_fixed_hburst 109 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 6 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_c 0 0 0 0 0 0 0
+ 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_f 0 0 0 0 0 0 0
+ 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_d 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_10 0 0 0 0 0 0 0
+ 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_e 0 0 0 0 0 0 0
+ 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_11 0 0 0 0 0 0 0
+
+ 31 waited_fixed_burst_trans_change 111 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 2 1 20 ahb_pkg::htrans_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 4 0 0 1 1 8 busy_seq 112 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+
+ 39 undefined_length_hburst_waited_scenario 118 0 0 0 0 0 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_9 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_9 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 20 ahb_pkg::hburst_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 23 waited_undefined_hburst 119 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 53 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_b 0 0 0 0 0 0 0
+
+ 44 waited_undefined_trans_change_for_idle_burst 122 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 2 1 20 ahb_pkg::htrans_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 4 0 0 1 1 9 busy_idle 125 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 11 busy_nonseq 126 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 8 busy_seq 127 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+
+ 24 fixed_burst_trans_change 133 0 0 0 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 2 1 20 ahb_pkg::htrans_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 10 1 4 0 0 1 1 17 fixed_nonseq_idle 134 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 17 fixed_nonseq_busy 135 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 16 fixed_nonseq_seq 136 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1f 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 15 fixed_busy_busy 137 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 14 fixed_busy_seq 138 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 15 fixed_busy_idle 139 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 15 fixed_idle_idle 140 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 13 fixed_seq_seq 141 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 14 fixed_seq_idle 142 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_1e 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 14 fixed_seq_busy 143 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_21 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_20 0 0 0 0 0 0 0
+
+ 41 cross_cp_all_burst_htrans_waited_scenario 0 103 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_22 0 0 2 3 8 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 -1 0 0 1 1 40 cross_all_burst_idle_to_nonseq_operation 104 0 1 0 1 3 1 0 3 0 0 0 0 0 0 1 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+ 43 cross_cp_fixed_burst_htrans_waited_scenario 0 114 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_22 0 0 2 9 10 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 54 cross_cp_undefined_length_burst_htrans_waited_scenario 0 129 0 0 54 cvg_mas_all_signals::ahb_pkg_cvg_mas_all_signals_fn_22 0 0 2 11 12 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 49 cross_cp_fixed_burst_htrans_without_wait_scenario 0 146 0 0 0 0 0 2 9 13 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 55 cross_cp_incr_burst_nonseq_to_any_without_wait_scenario 0 150 0 0 0 0 0 2 11 13 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 35 single_hsize_hwrite_htrans_cross_cp 0 154 0 0 0 0 0 4 3 5 2 7 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 -1 0 0 1 1 40 cross_single_burst_any_size_wr_rd_nonseq 156 0 1 0 1 7 1 0 3 1 22 single_burst_operation 0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 1 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+ 34 fixed_hsize_hwrite_htrans_cross_cp 0 160 0 0 0 0 0 4 9 5 2 6 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 38 undefined_hsize_hwrite_htrans_cross_cp 0 163 0 0 0 0 0 4 11 5 2 6 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
+global coverage_group 0 ahb_pkg::cvg_slv_data __coverage_cvg_slv_data unused_cvg_slv_data_loop_label ahb_pkg 1 0 0 0 0  ( 0 
+)
+ 0 169 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 10 slv_hrdata 170 0 0 0 0 0 37 cvg_slv_data::ahb_pkg_cvg_slv_data_fn 37 cvg_slv_data::ahb_pkg_cvg_slv_data_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 4 0 0 1 1 29 slv_rd_data_transition_0_to_1 171 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_slv_data::ahb_pkg_cvg_slv_data_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_slv_data::ahb_pkg_cvg_slv_data_fn_1 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 29 slv_rd_data_transition_1_to_0 172 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_slv_data::ahb_pkg_cvg_slv_data_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 cvg_slv_data::ahb_pkg_cvg_slv_data_fn_0 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 ahb_pkg::cvg_slv_signal __coverage_cvg_slv_signal unused_cvg_slv_signal_loop_label ahb_pkg 1 0 0 0 0  ( 0 
+)
+ 0 176 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+5
+0
+1
+0
+ 21 slv_hready_transition 177 0 0 0 0 0 41 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn 41 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 4 0 0 1 1 25 readyout_transiton_0_to_1 178 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_1 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 26 readyout_transition_1_to_0 179 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_0 0 0 0 0 0 0 0
+
+ 22 slv_hready_consecutive 183 0 0 0 0 0 41 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn 41 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 4 1 0 1 1 23 hreadyout_consecutive_0 184 0 1 4 0 0 0 -1 0 0 0 0 0 0 1 1 0 1 0 0 -1 0 4 0 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_2 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_0 0 0 0 0 0 0 0
+
+ 15 slv_hresp_state 187 0 0 0 0 0 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_3 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 1 1 19 ahb_pkg::hresp_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 1 0 1 1 14 response_state 188 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_4 0 0 0 0 0 0 0
+ 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_5 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 24 transition_error_to_okay 192 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_5 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_4 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 23 transition_okay_to_okay 194 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_4 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_4 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 24 transition_okay_to_error 195 0 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_4 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_5 0 0 0 0 0 0 0
+
+ 16 slv_hwrite_state 200 0 0 0 0 0 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_6 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 16 slv_hwrite_state 201 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_0 0 0 0 0 0 0 0
+ 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_1 0 0 0 0 0 0 0
+
+ 16 slv_hburst_state 204 0 0 0 0 0 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_7 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_7 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 20 ahb_pkg::hburst_enum 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 8 1 1 0 0 1 1 22 single_burst_operation 205 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_8 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 20 incr_burst_operation 206 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_9 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 incr4_burst_operation 207 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_a 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 incr8_burst_operation 208 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_b 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 22 incr16_burst_operation 209 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_c 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 wrap4_burst_operation 210 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_d 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 21 wrap8_burst_operation 211 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_e 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 22 wrap16_burst_operation 212 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cvg_slv_signal::ahb_pkg_cvg_slv_signal_fn_f 0 0 0 0 0 0 0
+
+ 29 cross_cp_response_burst_wr_rd 0 215 0 0 0 0 0 3 3 4 2 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 -1 0 0 1 1 19 hwrite_hburst_hresp 216 0 1 0 1 5 1 0 4 0 0 0 0 0 0 1 0 3 0 0 0 0 0 0 0 0 1 0 2 1 14 response_state 0 0 0 0 0 0 0 0 0 0 0 0
+
+end_coverage_group

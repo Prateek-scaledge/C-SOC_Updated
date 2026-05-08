@@ -1,0 +1,124 @@
+Magic 271485
+Revision Verdi_Q-2020.03
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1536 690 247 133
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/remote/vgvips1/globaluser/akashs/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+windowTimeUnit 1s
+
+; waveform viewport range
+zoom 0.000000 1330.170000 1
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 16
+; marker line index
+markerPos 42
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/remote/vgvips1/globaluser/akashs/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb"
+addSignal -h 15 /cortexm3_soc_tb/sram_ahb_inf/mas_if[0]/HADDR[31:0]
+addSignal -h 15 -holdScope HBURST[2:0]
+addSignal -h 15 -holdScope HMASTER[3:0]
+addSignal -h 15 -holdScope HMASTLOCK
+addSignal -h 15 -holdScope HNONSEC
+addSignal -h 15 -holdScope HPROT[3:0]
+addSignal -h 15 -holdScope HRDATA[31:0]
+addSignal -h 15 -holdScope HREADY
+addSignal -h 15 -holdScope HRESP[0:0]
+addSignal -h 15 -holdScope HSEL
+addSignal -h 15 -holdScope HSIZE[2:0]
+addSignal -h 15 -holdScope HTRANS[1:0]
+addSignal -h 15 -holdScope HWDATA[31:0]
+addSignal -h 15 -holdScope HWRITE
+addSignal -h 15 /cortexm3_soc_tb/sram_ahb_inf/mas_if[1]/HADDR[31:0]
+addSignal -h 15 -holdScope HBURST[2:0]
+addSignal -h 15 -holdScope HMASTER[3:0]
+addSignal -h 15 -holdScope HMASTLOCK
+addSignal -h 15 -holdScope HNONSEC
+addSignal -h 15 -holdScope HPROT[3:0]
+addSignal -h 15 -holdScope HRDATA[31:0]
+addSignal -h 15 -holdScope HREADY
+addSignal -h 15 -holdScope HRESP[0:0]
+addSignal -h 15 -holdScope HSEL
+addSignal -h 15 -holdScope HSIZE[2:0]
+addSignal -h 15 -holdScope HTRANS[1:0]
+addSignal -h 15 -holdScope HWDATA[31:0]
+addSignal -h 15 -holdScope HWRITE
+addSignal -h 15 /cortexm3_soc_tb/sram_ahb_inf/mas_if[3]/HADDR[31:0]
+addSignal -h 15 -holdScope HBURST[2:0]
+addSignal -h 15 -holdScope HMASTER[3:0]
+addSignal -h 15 -holdScope HMASTLOCK
+addSignal -h 15 -holdScope HNONSEC
+addSignal -h 15 -holdScope HPROT[3:0]
+addSignal -h 15 -holdScope HRDATA[31:0]
+addSignal -h 15 -holdScope HREADY
+addSignal -h 15 -holdScope HRESP[0:0]
+addSignal -h 15 -holdScope HSEL
+addSignal -h 15 -holdScope HSIZE[2:0]
+addSignal -h 15 -holdScope HTRANS[1:0]
+addSignal -h 15 -holdScope HWDATA[31:0]
+addSignal -h 15 -holdScope HWRITE
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/remote/vgvips1/globaluser/akashs/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/_$novas_unit__1"
+"/cortexm3_soc_tb"
+"/cortexm3_soc_tb/sram_ahb_inf"
+
+SCOPE_LIST_BEGIN
+"/_$novas_unit__1"
+"/cortexm3_soc_tb/sram_if"
+"/cortexm3_soc_tb/sram_ahb_inf"
+"/cortexm3_soc_tb/uinf_master"
+"/cortexm3_soc_tb/cortexm3_soc_i0"
+"/cortexm3_soc_tb"
+"/cortexm3_soc_tb/sram_ahb_inf/mas_if[0]"
+"/cortexm3_soc_tb/sram_ahb_inf/mas_if[0]/ahb_mas_mon_cb"
+"/cortexm3_soc_tb/sram_ahb_inf/mas_if[1]"
+"/cortexm3_soc_tb/sram_ahb_inf/mas_if[1]/ahb_mas_drv_cb"
+"/cortexm3_soc_tb/sram_ahb_inf/mas_if[2]"
+"/cortexm3_soc_tb/sram_ahb_inf/mas_if[3]"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

@@ -1,0 +1,120 @@
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 \
+           {/remote/vgvips1/globaluser/akashs/FALCON-C-SoC-PROJECT/cortexm3_soc/top/sim/test_top.fsdb}
+wvCreateWindow
+wvCloseWindow -win $_nWave3
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvSelectGroup -win $_nWave2 {G1}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/_\$novas_unit__1"
+wvGetSignalSetScope -win $_nWave2 "/cortexm3_soc_tb/sram_ahb_inf"
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADYOUT} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADY_IN} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HSEL\[0:0\]} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HTRANS\[1:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 )} 
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADYOUT} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADY_IN} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HSEL\[0:0\]} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HTRANS\[1:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 )} 
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvGetSignalClose -win $_nWave2
+wvSelectGroup -win $_nWave2 {G2}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/_\$novas_unit__1"
+wvGetSignalSetScope -win $_nWave2 "/cortexm3_soc_tb"
+wvGetSignalSetScope -win $_nWave2 "/cortexm3_soc_tb/sram_ahb_inf"
+wvGetSignalSetScope -win $_nWave2 "/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb"
+wvGetSignalSetScope -win $_nWave2 "/cortexm3_soc_tb/sram_ahb_inf"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/cortexm3_soc_i0/CORTEXM3INTEGRATIONDS_i0"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/cortexm3_soc_i0/cm3_matrix_lite"
+wvGetSignalSetScope -win $_nWave2 \
+           "/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A"
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADYOUT} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADY_IN} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HSEL\[0:0\]} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HTRANS\[1:0\]} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HREADY} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HREADYOUT} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HSEL} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HTRANS\[1:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 5 6 7 8 )} 
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADYOUT} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HREADY_IN} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HSEL\[0:0\]} \
+{/cortexm3_soc_tb/sram_ahb_inf/slv_if\[0\]/ahb_slv_mon_cb/HTRANS\[1:0\]} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HREADY} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HREADYOUT} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HSEL} \
+{/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HTRANS\[1:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 5 6 7 8 )} 
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvGetSignalClose -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSelectGroup -win $_nWave2 {G2}
+wvAddSignal -win $_nWave2 \
+           "/cortexm3_soc_tb/cortexm3_soc_i0/cmsdk_ahb_to_sram_A/HREADY"
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 9 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSelectGroup -win $_nWave2 {G2}
+wvAddSignal -win $_nWave2 "BLANK"
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSelectGroup -win $_nWave2 {G2}
+wvExpandGroup -win $_nWave2 "G1"
+wvSelectGroup -win $_nWave2 {G2}
+wvCollapseGroup -win $_nWave2 "G1"
+wvSelectGroup -win $_nWave2 {G2}
+wvExpandGroup -win $_nWave2 "G1"
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectGroup -win $_nWave2 {G1}
+debExit
